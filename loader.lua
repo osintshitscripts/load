@@ -17,8 +17,8 @@ local Github = {}; do
 	Github.USER_AGENT = "homohack";
 	Github.ERROR = "Failed to retrieve";
 
-	Github.OWNER = "osintshitscripts";
-	Github.REPO = "loader";
+	Github.OWNER = "dementiaenjoyer";
+	Github.REPO = "homohack";
 	Github.URL = "https://api.github.com";
 
 	function Github:GetUpdate(Name)
@@ -286,7 +286,7 @@ do
 		Parent = Holder;
 	}); do
 		local Title = Elements:New("TextLabel", {
-			Text = "fent";
+			Text = "homohack";
 			TextWrapped = true;
 			BorderSizePixel = 0;
 			TextScaled = true;
